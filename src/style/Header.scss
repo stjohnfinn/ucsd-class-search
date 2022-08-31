@@ -1,0 +1,9 @@
+.headerComponent {
+    border-bottom: 1px solid gray;
+    height: clamp(100px, 5vh, 125px);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}

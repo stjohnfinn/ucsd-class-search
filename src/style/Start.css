@@ -1,0 +1,22 @@
+.startComponent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - clamp(100px, 5vh, 125px));
+}
+.startComponent .startButton {
+  min-height: 90px;
+  min-width: 225px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  margin: 2rem;
+}
+.startComponent .startButton .startButtonText {
+  font-size: 3rem;
+}
+
+/*# sourceMappingURL=Start.css.map */
