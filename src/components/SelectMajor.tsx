@@ -1,5 +1,4 @@
 import { useNavigate } from "react-router-dom";
-import NavigationButton from "./NavigationButton";
 
 export default function SelectMajor() {
 
