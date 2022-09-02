@@ -7,7 +7,11 @@ export default function SelectMajor() {
 
     return (
         <div className="selectMajorComponent" >
-            <h1>Select Major</h1>
+            <label>Select your major:</label>
+            <select name="major">
+                <option>Cognitive Science</option>
+                <option>Computer Science</option>
+            </select>
             <button onClick={() => navigate("/select-classes")}>Select Classes</button>
         </div>
     )
