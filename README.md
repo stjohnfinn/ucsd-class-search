@@ -5,6 +5,7 @@ A better way to search for classes than WebReg.
 ### WebReg disadvantages
 1. There is no way to filter out the classes you are not eligible to take
 2. The UI is gross
+3. UCSD is the worst school in the world ever in the entire universe
 
 There is a better way.
 
