@@ -1,0 +1,18 @@
+.userProfileComponent {
+  background-color: rgb(154, 189, 201);
+  padding: 1rem;
+  text-align: center;
+}
+.userProfileComponent ul {
+  background-color: lightblue;
+  padding: 1rem;
+}
+.userProfileComponent ul li {
+  display: flex;
+  padding: 0.25rem;
+  padding-left: 1rem;
+  justify-content: space-between;
+  background-color: lightcyan;
+}
+
+/*# sourceMappingURL=UserProfile.css.map */

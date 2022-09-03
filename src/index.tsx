@@ -1,23 +1,25 @@
-import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom' 
-import App from './App'
-import SearchClasses from './components/SearchClasses'
-import SelectClasses from './components/SelectClasses'
-import SelectMajor from './components/SelectMajor'
+import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
+import App from "./App";
+import SearchClasses from "./components/SearchClasses";
+import SelectClasses from "./components/SelectClasses";
+import SelectMajor from "./components/SelectMajor";
+import UserProfile from "./components/UserProfile";
 
-import './style/index.css'
+import "./style/index.css";
 
-import { createRoot } from 'react-dom/client'
-const container = document.getElementById('root')
-const root = createRoot(container!)
+import { createRoot } from "react-dom/client";
+const container = document.getElementById("root");
+const root = createRoot(container!);
 root.render(
-    <BrowserRouter>
-        <Routes>
-            <Route path="/" element={<App />}>
-                <Route path="/" element={<Navigate to="/select-major" />} />
-                <Route path="select-major" element={<SelectMajor />} />
-                <Route path="select-classes" element={<SelectClasses />} />
-                <Route path="search-classes" element={<SearchClasses />} />
-            </Route>
-        </Routes>
-    </BrowserRouter>
-)
+  <BrowserRouter>
+    <Routes>
+      <Route path="/" element={<App />}>
+        <Route path="/" element={<Navigate to="/select-major" />} />
+        <Route path="select-major" element={<SelectMajor />} />
+        <Route path="select-classes" element={<SelectClasses />} />
+        <Route path="search-classes" element={<SearchClasses />} />
+        <Route path="user-profile" element={<UserProfile />} />
+      </Route>
+    </Routes>
+  </BrowserRouter>
+);

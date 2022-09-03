@@ -42,3 +42,11 @@ There is a better way.
 ### Read PDF of Class History
 - Difficult to implement? Requires some sort of computer vision, photo reading because often PDFs are binary. There are probably libraries out there for this things, but definitely not an easy task
 - Would have to hard code a lot of the parsing because it might have to be based on like indexing a giant string or parsing for specific words
+
+## Getting Started for Developers of this Repo ##
+1. use node version 16.14.2
+    - other node versions may work but this is the one that I am developing in.
+2. use node package manager to install dependencies 
+    - I use npm v8.5.0
+3. run `npm start` to start the application up on localhost 3000 
+4. When making edits to scss files, make sure to install sass and watch/map those files to css files!
