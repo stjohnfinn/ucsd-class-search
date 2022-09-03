@@ -31,22 +31,14 @@ export default function MajorSection({title, classes}: SectionProps) {
         classElements.push(element)
     }
 
-    console.log(classElements)
-
-    const openStyle = {
-        height: 'min-content'
-    }
-
     const closedStyle = {
-        height: '0px'
+        height: '0',
     }
-
-    const collapsibleClass = "majorSectionClassesContainer " + open ? "collapsibleOpen" : "collapsibleClosed"
 
     return (
         <div className="majorSectionComponent">
             <button type="button" className="collapsibleButton" onClick={toggleOpen}>{title}</button>
-            <div style={ open ? openStyle : closedStyle } className="majorSectionClassesComponent">
+            <div style={ open ? {} : closedStyle } className="majorSectionClassesComponent">
                 {classElements}
             </div>
         </div>
