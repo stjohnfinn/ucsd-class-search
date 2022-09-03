@@ -1,4 +1,5 @@
 import { useNavigate } from "react-router-dom"
+import MajorSection from "./MajorSection"
 
 
 export default function SelectClasses() {
@@ -9,6 +10,8 @@ export default function SelectClasses() {
         <div className="selectClassesComponent" >
             <h1>Select Major</h1>
             <button onClick={() => navigate("/search-classes")}>Search Classes</button>
+            <MajorSection title="Cognitive Science" classes={["COGS 118", "COGS 112"]}/>
+            <MajorSection title="Computer Science" classes={["CSE 11", "CSE 141"]}/>
         </div>
     )
 }

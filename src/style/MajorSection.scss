@@ -1,0 +1,17 @@
+.collapsibleButton {
+    cursor: pointer;
+    padding: 1rem;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 1rem;
+    border: 1px solid black;
+}
+
+.majorSectionClassesComponent {
+    padding: 1rem;
+    background: #f1f1f1;
+    transition: 0.2s all;
+    overflow: hidden;
+    padding: 0;
+}
